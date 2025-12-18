@@ -4,54 +4,105 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aqeel Maseeroor | Cybersecurity Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- Navigation Bar -->
+    <nav id="navbar">
+        <ul>
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#certificates">Certificates</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
     <!-- Hero Section -->
     <section id="hero">
         <h1>Aqeel Maseeroor</h1>
-        <p>Cybersecurity Enthusiast | Pentesting | Secure Programming <br> "Just another human sudoing through exploits, one script at a time."
-            
-            
-        </p>
+        <p>Cybersecurity Enthusiast | Pentesting | Secure Programming <br>
+        "Just another human sudoing through exploits, one script at a time."</p>
+        
+        <!-- Social / Contact Links -->
+        <div class="hero-links">
+            <a href="mailto:yourprofessionalemail@gmail.com" target="_blank">Email</a>
+            <a href="https://linkedin.com/in/yourusername" target="_blank">LinkedIn</a>
+            <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+            <a href="https://twitter.com/yourusername" target="_blank">Twitter (X)</a>
+            <a href="resume.pdf" target="_blank">Resume</a>
+        </div>
+
+        <a href="#contact" class="btn">Contact Me</a>
     </section>
 
     <!-- Skills Section -->
     <section id="skills">
         <h2>Skills</h2>
-        <ul>
-            <li>Python (Beginner)</li>
-            <li>Secure Code Review</li>
-            <li>Static Analysis (Bandit)</li>
-            <li>Git & GitHub</li>
-            <li>HTML & CSS (Basic)</li>
-        </ul>
+        <div class="cards-container">
+            <div class="card">
+                <h3>Python</h3>
+                <p>Beginner | Scripting & Automation</p>
+                <span class="badge">#Coding</span>
+            </div>
+            <div class="card">
+                <h3>Secure Code Review</h3>
+                <p>Manual & Automated Analysis</p>
+                <span class="badge">#Cybersecurity</span>
+            </div>
+            <div class="card">
+                <h3>Static Analysis</h3>
+                <p>Using Bandit & Other Tools</p>
+                <span class="badge">#Pentesting</span>
+            </div>
+            <div class="card">
+                <h3>Git & GitHub</h3>
+                <p>Version Control & Collaboration</p>
+                <span class="badge">#Collaboration</span>
+            </div>
+            <div class="card">
+                <h3>HTML & CSS</h3>
+                <p>Basic Web Development</p>
+                <span class="badge">#WebDev</span>
+            </div>
+        </div>
     </section>
 
     <!-- Projects Section -->
     <section id="projects">
         <h2>Projects</h2>
-        <div class="project">
-            <h3>Secure Code Auditing – Python</h3>
-            <p>Reviewed Python code for vulnerabilities using Bandit and manual analysis.</p>
-            <a href="https://github.com/yourusername/secure-code-audit-python" target="_blank">View on GitHub</a>
+        <div class="cards-container">
+            <div class="card">
+                <h3>Secure Code Auditing – Python</h3>
+                <p>Reviewed Python code for vulnerabilities using Bandit and manual analysis.</p>
+                <a href="https://github.com/yourusername/secure-code-audit-python" target="_blank">View on GitHub</a>
+                <span class="badge">#Python #Security</span>
+            </div>
         </div>
     </section>
 
     <!-- Certificates Section -->
     <section id="certificates">
         <h2>Certificates</h2>
-        <ul>
-            <li>Mental Health Awareness Workshop</li>
-            <li>Cybersecurity & Coding Self-Learning</li>
-        </ul>
+        <div class="cards-container">
+            <div class="card">
+                <h3>Mental Health Awareness Workshop</h3>
+                <span class="badge">#Workshop</span>
+            </div>
+            <div class="card">
+                <h3>Cybersecurity & Coding Self-Learning</h3>
+                <span class="badge">#SelfLearning</span>
+            </div>
+        </div>
     </section>
 
     <!-- Contact Section -->
     <section id="contact">
         <h2>Contact</h2>
-        <p>Email: yourprofessionalemail@gmail.com</p>
+        <p>Email: <a href="mailto:yourprofessionalemail@gmail.com">yourprofessionalemail@gmail.com</a></p>
         <p>GitHub: <a href="https://github.com/yourusername" target="_blank">https://github.com/yourusername</a></p>
+        <p>LinkedIn: <a href="https://linkedin.com/in/yourusername" target="_blank">linkedin.com/in/yourusername</a></p>
     </section>
 </body>
 </html>
