@@ -1,345 +1,243 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>M-Aqeel</title>
-    <link rel="stylesheet" href="stayle.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:wght@300..800&family=Playfair+Display:wght@400..900&family=Unbounded:wght@200..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
-<body>
-    <div id="loading-screen">
-  <div class="loading-content">
-    <i class="fa-solid fa-laptop-code fa-5x main-icon hidden"></i>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Aqeel | Portfolio</title>
 
-    <h1 id="loading-text" class="hidden">MY PROFILE</h1>
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway&family=Roboto&family=Playfair+Display&family=Open+Sans&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+<!-- ================= LOADING SCREEN ================= -->
+<div id="loading-screen">
+  <div class="loading-content">
+    <h1 id="loading-text" class="hidden">Welcome</h1>
+    <i class="fa-solid fa-user-secret main-icon hidden"></i>
 
     <div class="sub-icons">
-      <i class="fa-brands fa-github fa-2x hidden"></i>
-      <i class="fa-solid fa-code fa-2x hidden"></i>
-      <i class="fa-solid fa-user fa-2x hidden"></i>
+      <i class="fa-solid fa-code hidden"></i>
+      <i class="fa-solid fa-shield-halved hidden"></i>
+      <i class="fa-solid fa-terminal hidden"></i>
     </div>
 
-    <h2 id="designer-text" class="hidden">Designed by Aqeel</h2>
+    <h2 id="designer-text" class="hidden">Cybersecurity Enthusiast</h2>
   </div>
 </div>
-    <header class="header-list">
-        <div class="div-list ">
-            <ul class="ul-list">
-                <li class="active">
-                    <i class="fa-regular fa-house"></i>
-                    <a href="#home">Home</a>
-                </li>
-                <li>
-                    <i class="fa-regular fa-address-card"></i>
-                    <a href="#about">About</a>
-                </li>
-                <li>
-                    <i class="fa-regular fa-folder-open"></i>
-                    <a href="#project">Projects</a>
-                </li>
-                <li>
-                    <i class="fa-solid fa-code"></i>
-                    <a href="#services">services</a>
-                </li>
-                <li>
-                    <i class="fa-regular fa-envelope"></i>
-                    <a href="#contact">Contact</a>
-                </li>
-            </ul>
-        </div>
-    </header>
-    <!-- home -->
-    <section class="home" id="home">
-        <p class="home-p">
-            <span class="home-s">. </span>
-        </p>
-        <div class="home-container">
-        <div class="home-section">
-            <div class="info-home">
-                <h1>Hi, I'm Aqeel</h1>
-                <h3>Cybersecurity enthusiast|Pentesting|Secure programming </h3>
-                <div class="info-p">
-                   <p>I am starting my journey in cybersecurity and learning how to protect systems and data from security threats.
-</p>
-                   <p>I have over 2 years of experience working with Linux and I am motivated to develop my skills and gain hands-on experience in the field. </p>
-                </div>
-                <div class="info-p2">
-                    <p><i class="fa-solid fa-location-dot"></i> Based in Malaysia</p>
-                    <p><i class="fa-solid fa-briefcase"></i> Available Now</p>
-                </div>
-                <div class="btnn">
-                    <button class="btn-home1"><i class="fa-solid fa-arrow-right"></i> Hire Me</button>
-                    <button class="btn-home2"><i class="fa-solid fa-download"></i> Download CV</button>
-                </div>
-                <div class="hhr">
-                    <hr>
-                </div>
-                <div class="follow">
-                    <p class="followw">Follow me:</p>
-                    <ul>
-                        <li><a href="https://github.com/Aqeeel12"><i class="fa-brands fa-github"></i></a></li>
-                        <li><a href="https://www.linkedin.com/in/aqeel-maseeroor-08b599351/"><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
-                        <li><a href="https://www.instagram.com/_.aqeeel?igsh=MTMybGRiazM5aXJzcg=="><i class="fa-brands fa-instagram"></i></a></li>
-                    </ul>
-                </div>
-            </div>
-          </div>
-          <img src="profile.jpeg" alt="">
-        </div>
-    </section>
-    <!-- fine home  -->
-     <section class="about" id="about" >
-        <p id="about">ABOUT ME</p>
-        <div class="title">
-        <h1> Simple & Clean</h1>
-        <h1>Securing Digital Experiences</h1>
-        </div>
-        <div class="hrrr">
-            <hr>
-        </div>
-        <div class="about-container">
-            <div class="info-about">
-            <div class="about-info">
-                <p>
-                   
-  I'm an aspiring cybersecurity professional with a strong interest in protecting systems and digital information.
-  <br>My journey began with curiosity about how systems work and evolved into a passion for security — combining
-  <br>technical knowledge with problem-solving to help reduce security risks.
-</p>
 
-<p>
-  When I'm not practicing security skills, I enjoy learning new tools, improving my understanding of Linux and networking,
-  <br>and exploring how vulnerabilities can be identified and prevented.
-  <br>I believe in continuous learning, attention to detail, and building secure, reliable digital systems.
+<!-- ================= MAIN PAGE ================= -->
+<div id="main-page">
 
+<!-- ================= HEADER ================= -->
+<header>
+  <div class="div-list">
+    <ul class="ul-list">
+      <li class="active"><i class="fa-solid fa-house"></i><a href="#home">Home</a></li>
+      <li><i class="fa-solid fa-user"></i><a href="#about">About</a></li>
+      <li><i class="fa-solid fa-diagram-project"></i><a href="#project">Projects</a></li>
+      <li><i class="fa-solid fa-shield-halved"></i><a href="#services">Skills</a></li>
+      <li><i class="fa-solid fa-envelope"></i><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</header>
 
-                </p>
-            </div>
-            <h2>What Drives Me</h2>
-            <div class="card">
-                <div class="c1">
-                    <h3><i class="fa-solid fa-code"></i> Languoges</h3>
-                    <p>HTNL,CSS,JavaScript,Java,C,React</p>
-                </div>
-                <div class="c1">
-                    <h3><i class="fa-solid fa-graduation-cap"></i> Education</h3>
-                    <p>USTHB in Computer Science</p>
-                </div>
-            <div class="c1">
-                    <h3><i class="fa-solid fa-folder-open"></i> Projects</h3>
-                    <p>Built more than 5 projects</p>
-                </div>
-            </div>
-        </div>
-        <img src="images/img.jpg" alt="">
-        </div>
-     </section>
-     <section class="project" id="project">
-        <p>PROJECTS</p>
-        <h1>Featured Work</h1>
-        <hr>
-        <div class="info-pro">
-            <p>A showcase of my recent projects demonstrating expertise in full-stack </p>
-            <p>development, modern frameworks, and creative problem-solving.</p>
-        </div>
-        <div class="projects-container">
+<!-- ================= HOME ================= -->
+<section class="home" id="home">
+  <div class="home-container">
 
-    <div class="project-card">
-      <img src="images/Cleveroad.jpg" alt="E-Commerce Website">
-      <h3>E-Commerce Website</h3>
-      <p>Modern online store with product filtering, cart, and payment system.</p>
-      <div class="skills">
-        <a href="#">HTML</a>
-        <a href="#">CSS</a>
-        <a href="#">JavaScript</a>
+    <div class="info-home">
+      <span class="home-p">👋 Hello, I'm <span class="home-s">Aqeel</span></span>
+
+      <h1>Building Secure<br>Digital Experiences</h1>
+      <h3></h3>
+
+      <div class="info-p">
+        <p>I'm an aspiring cybersecurity learner with strong interest in Linux and system security.</p>
+        <p>I enjoy learning how systems work and how to protect them.</p>
       </div>
-      <div class="btns">
-        <a href="#" class="btn"><i class="fab fa-github"></i> GitHub</a>
-        <a href="#" class="btn"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+
+      <div class="btnn">
+        <button class="btn-home1">Download CV</button>
+        <button class="btn-home2">Contact Me</button>
+      </div>
+
+      <div class="follow">
+        <ul>
+          <li><a href="https://github.com/" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+          <li><a href="https://linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+          <li><a href="https://instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+        </ul>
       </div>
     </div>
 
+    <img src="images/profile.jpg" alt="Profile">
+  </div>
+</section>
+
+<!-- ================= ABOUT ================= -->
+<section class="about" id="about">
+  <h1 class="title">About Me</h1>
+  <hr class="hrrr">
+
+  <div class="about-container">
+    <img src="images/profile.jpg" alt="About">
+
+    <div class="info-about">
+      <p>
+        I'm learning cybersecurity with a focus on Linux, networking, and system security.
+        I enjoy exploring vulnerabilities and improving system reliability.
+      </p>
+
+      <div class="card">
+        <div class="c1">
+          <i class="fa-solid fa-terminal"></i>
+          <h3>Linux</h3>
+          <p>2+ Years Practice</p>
+        </div>
+
+        <div class="c1">
+          <i class="fa-solid fa-shield"></i>
+          <h3>Security</h3>
+          <p>Cybersecurity Basics</p>
+        </div>
+
+        <div class="c1">
+          <i class="fa-solid fa-code"></i>
+          <h3>Web</h3>
+          <p>Frontend Skills</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PROJECTS ================= -->
+<section class="project" id="project">
+  <h1>Projects</h1>
+  <hr>
+
+  <div class="projects-container">
+
     <div class="project-card">
-      <img src="images/Capture d'écran 2025-10-22 182207.png" alt="Portfolio Website">
+      <img src="images/project1.png" alt="">
       <h3>Portfolio Website</h3>
-      <p>Personal portfolio to showcase my design and coding projects.</p>
+      <p>Personal portfolio built with HTML, CSS, JS</p>
       <div class="skills">
-        <a href="#">HTML</a>
-        <a href="#">CSS</a>
-        <a href="#">Bootstrap</a>
+        <a>HTML</a><a>CSS</a><a>JS</a>
       </div>
       <div class="btns">
-        <a href="#" class="btn"><i class="fab fa-github"></i> GitHub</a>
-        <a href="#" class="btn"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+        <a class="btn" href="#">Live</a>
+        <a class="btn" href="#">Code</a>
       </div>
     </div>
 
     <div class="project-card">
-      <img src="images/Weather Forecast Dashboard.jpg" alt="Weather App">
-      <h3>Weather App</h3>
-      <p>Responsive app showing real-time weather data using API integration.</p>
+      <img src="images/project2.png" alt="">
+      <h3>Linux Practice</h3>
+      <p>Basic Linux commands & scripting</p>
       <div class="skills">
-        <a href="#">HTML</a>
-        <a href="#">CSS</a>
-        <a href="#">API</a>
+        <a>Linux</a><a>Bash</a>
       </div>
       <div class="btns">
-        <a href="#" class="btn"><i class="fab fa-github"></i> GitHub</a>
-        <a href="#" class="btn"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+        <a class="btn" href="#">View</a>
       </div>
-    </div>
-
-    <div class="project-card">
-      <img src="images/WordPress dashboard design concept.jpg" alt="Blog Website">
-      <h3>Blog Website</h3>
-      <p>Clean and simple blogging platform with markdown support.</p>
-      <div class="skills">
-        <a href="#">HTML</a>
-        <a href="#">Tailwind</a>
-        <a href="#">JavaScript</a>
-      </div>
-      <div class="btns">
-        <a href="#" class="btn"><i class="fab fa-github"></i> GitHub</a>
-        <a href="#" class="btn"><i class="fas fa-external-link-alt"></i> Live Demo</a>
-      </div>
-    </div>
-
-    <div class="project-card">
-      <img src="images/Game Dashboard Design.jpg" alt="Game Landing Page">
-      <h3>Game Landing Page</h3>
-      <p>Landing page for a game with animations and parallax effects.</p>
-      <div class="skills">
-        <a href="#">HTML</a>
-        <a href="#">CSS</a>
-        <a href="#">GSAP</a>
-      </div>
-      <div class="btns">
-        <a href="#" class="btn"><i class="fab fa-github"></i> GitHub</a>
-        <a href="#" class="btn"><i class="fas fa-external-link-alt"></i> Live Demo</a>
-      </div>
-    </div>
-
-    <div class="project-card">
-      <img src="images/Task manager app.jpg" alt="Task Manager">
-      <h3>Task Manager</h3>
-      <p>Task tracking web app with CRUD features and clean UI.</p>
-      <div class="skills">
-        <a href="#">HTML</a>
-        <a href="#">CSS</a>
-        <a href="#">JS</a>
-      </div>
-      <div class="btns">
-        <a href="#" class="btn"><i class="fab fa-github"></i> GitHub</a>
-        <a href="#" class="btn"><i class="fas fa-external-link-alt"></i> Live Demo</a>
-      </div>
-    </div>
-  </div>
-     </section>
-     <section class="services" id="services">
-        <p>SERVICES</p>
-        <h1>Our Features & Services</h1>
-        <hr>
-        <div class="services-container">
-
-    <div class="service-card">
-      <img src="images/web.svg" alt="Web Development">
-      <h3>Web Development</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut eligendi soluta est veniam sequi nemo.</p>
-    </div>
-
-    <div class="service-card">
-      <img src="images/app.svg" alt="App Development">
-      <h3>App Development</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut eligendi soluta est veniam sequi nemo.</p>
-    </div>
-
-    <div class="service-card">
-      <img src="images/dm.svg" alt="Digital Marketing">
-      <h3>Digital Marketing</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut eligendi soluta est veniam sequi nemo.</p>
-    </div>
-
-    <div class="service-card">
-      <img src="images/seo.svg" alt="Email Marketing">
-      <h3>Email Marketing</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut eligendi soluta est veniam sequi nemo.</p>
     </div>
 
   </div>
-     </section>
-     <section class="contact" id="contact">
-        <p>CONTACT</p>
-        <h1>Get in Touch with Us</h1>
-        <div class="contact-content">
-      <div class="contact-info slide-in-left">
-        <p>I'm always open to discuss exciting projects and new opportunities. Let's collaborate!</p>
-        <div class="contact-details">
-          <div class="contact-item">
-            <i class="fa-solid fa-envelope"></i>
-            <span>amine@example.com</span>
-          </div>
-          <div class="contact-item">
-            <i class="fa-solid fa-phone"></i>
-            <span>+213 00 11 22 33 44</span>
-          </div>
-          <div class="contact-item">
-            <i class="fa-solid fa-location-dot"></i>
-            <span>Algeria, Boumerdes</span>
-          </div>
-        </div>
+</section>
 
-        <div class="social-links">
-          <a href="https://github.com/Saboo24" class="social-link" target="_blank">
-            <i class="fa-brands fa-github"></i>
-          </a>
-          <a href="https://www.linkedin.com/in/amine-hamzaoui-a2453a35b" class="social-link" target="_blank">
-            <i class="fa-brands fa-linkedin"></i>
-          </a>
-          <a href="https://wa.me/213554139526" class="social-link" target="_blank">
-            <i class="fa-brands fa-whatsapp"></i>
-          </a>
-        </div>
-      </div>
+<!-- ================= SERVICES / SKILLS ================= -->
+<section class="services" id="services">
+  <h1>Skills</h1>
+  <hr>
 
-      <div class="contact-form slide-in-right">
-        <form id="contact-form">
-          <div class="form-group">
-            <input type="text" placeholder="Your Name" required name="user_name">
-          </div>
-          <div class="form-group">
-            <input type="email" placeholder="Your Email" required name="user_email">
-          </div>
-          <div class="form-group">
-            <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
-          </div>
-          <button type="submit" class="btn-send">Send Message</button>
-        </form>
+  <div class="services-container">
+    <div class="service-card">
+      <img src="images/linux.png">
+      <h3>Linux</h3>
+      <p>File systems, permissions, processes</p>
+    </div>
+
+    <div class="service-card">
+      <img src="images/security.png">
+      <h3>Cybersecurity</h3>
+      <p>Security fundamentals & awareness</p>
+    </div>
+
+    <div class="service-card">
+      <img src="images/code.png">
+      <h3>Frontend</h3>
+      <p>HTML, CSS, JavaScript</p>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CONTACT ================= -->
+<section class="contact" id="contact">
+  <h1>Contact Me</h1>
+  <hr>
+
+  <div class="contact-content">
+
+    <div class="contact-info">
+      <p>Feel free to reach out for collaboration or learning opportunities.</p>
+
+      <div class="contact-details">
+        <div class="contact-item"><i class="fa-solid fa-envelope"></i> aqeel@email.com</div>
+        <div class="contact-item"><i class="fa-solid fa-location-dot"></i> Sri Lanka</div>
       </div>
     </div>
-     </section>
-     <footer class="footer">
+
+    <form class="contact-form">
+      <div class="form-group">
+        <input type="text" placeholder="Your Name">
+      </div>
+      <div class="form-group">
+        <input type="email" placeholder="Your Email">
+      </div>
+      <div class="form-group">
+        <textarea rows="4" placeholder="Message"></textarea>
+      </div>
+      <button class="btn-send">Send Message</button>
+    </form>
+
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer">
   <div class="footer-container">
-    <h2 class="footer-logo">Amine</h2>
+    <h2 class="footer-logo">Aqeel</h2>
+
     <ul class="footer-links">
       <li><a href="#home">Home</a></li>
       <li><a href="#about">About</a></li>
       <li><a href="#project">Projects</a></li>
-      <li><a href="#services">Services</a></li>
+      <li><a href="#services">Skills</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
+
     <div class="footer-social">
-      <a href="https://github.com/Saboo24" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
-      <a href="https://www.linkedin.com/in/amine-hamzaoui-a2453a35b" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
-      <a href="https://wa.me/213554139526" target="_blank" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+      <a href="#"><i class="fa-brands fa-github"></i></a>
+      <a href="#"><i class="fa-brands fa-linkedin"></i></a>
     </div>
-    <p class="footer-copy">&copy; 2025 Amine. All Rights Reserved.</p>
+
+    <p class="footer-copy">© 2025 Aqeel. All rights reserved.</p>
   </div>
 </footer>
 
-     <script src="main.js"></script>
+</div>
+
+<!-- ================= JS ================= -->
+<script src="script.js"></script>
+
 </body>
 </html>
